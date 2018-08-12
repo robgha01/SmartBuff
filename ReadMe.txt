@@ -1,3 +1,5 @@
+Backported by Areasis for 3.3.5
+
 ***********************************************************************
 SmartBuff
 Created by Aeldra (EU-Proudmoore)
@@ -98,31 +100,31 @@ aeldra@sonnenkinder.org
 ***********************************************************************
 
 SmartDebuff
-Ein verschiebbares Fenster mit Knöpfen für alle Spieler in Solo/Party/Raid.
-Verknüpft deine Debuff Zauber auf links und rechts Klick (Links = Blau, Rechts = Rot) von den Debuff Knöpfen.
-Zeigt Debuffs gut sichbar Blau und Rot auf dem Knopf an, diese können dann mit entsprechenden Mausklick despelled werden.
+Ein verschiebbares Fenster mit KnÃ¶pfen fÃ¼r alle Spieler in Solo/Party/Raid.
+VerknÃ¼pft deine Debuff Zauber auf links und rechts Klick (Links = Blau, Rechts = Rot) von den Debuff KnÃ¶pfen.
+Zeigt Debuffs gut sichbar Blau und Rot auf dem Knopf an, diese kÃ¶nnen dann mit entsprechenden Mausklick despelled werden.
 
 Highligth the target that needs to debuffed and binds your debuff spells to left and right click (left = blue, right = red) on the debuff button
 
 
 Beschreibung:
-SmartBuff ist ein Buff Addon, dass das (Re)Buffen so einfach und schnell wie möglich von statten geht. Es werden alle Klassen unterstützt. Auf Knopfdruck (Bind oder Macro erstelle ein Macro '/sb') wird der Spieler/Gruppe/Raid Sub-Gruppe, auch die Hexer/Jäger Pets, überprüft und wenn nötig gebufft. Über das Optionen Menü kann alles nötige eingestellt werden, wie z.B. Buffs, die zu buffenden Raid Sub-Gruppen, Buffen der Pets, etc.
+SmartBuff ist ein Buff Addon, dass das (Re)Buffen so einfach und schnell wie mÃ¶glich von statten geht. Es werden alle Klassen unterstÃ¼tzt. Auf Knopfdruck (Bind oder Macro erstelle ein Macro '/sb') wird der Spieler/Gruppe/Raid Sub-Gruppe, auch die Hexer/JÃ¤ger Pets, Ã¼berprÃ¼ft und wenn nÃ¶tig gebufft. Ãœber das Optionen MenÃ¼ kann alles nÃ¶tige eingestellt werden, wie z.B. Buffs, die zu buffenden Raid Sub-Gruppen, Buffen der Pets, etc.
 
 
 Features:
-- Unterstützt alle Klassen
-- Unterstützt EN/DE/FR Clients
-- Überprüft die Buffs und bufft dich, Raid/Party Mitglieder, Raid/Party Pets
-- Individuelle Einstellungen für jeden Buff
-- Erstellen von Buff-Vorlagen möglich (Solo, Party, Raid, Battleground, MC, Ony, BWL, AQ, Naxx, ZG, Custom 1-5)
+- UnterstÃ¼tzt alle Klassen
+- UnterstÃ¼tzt EN/DE/FR Clients
+- ÃœberprÃ¼ft die Buffs und bufft dich, Raid/Party Mitglieder, Raid/Party Pets
+- Individuelle Einstellungen fÃ¼r jeden Buff
+- Erstellen von Buff-Vorlagen mÃ¶glich (Solo, Party, Raid, Battleground, MC, Ony, BWL, AQ, Naxx, ZG, Custom 1-5)
 - Automatischer Vorlagewechsel
-- Unterstützt Gruppen-Buffs: 'Gabe der Wildnis'/'Arkane Brillanz'/'Gebet der Seelenstärke'/'Gebet der Willenskraft', inkl. Gruppengrösse und Reagenzien Check
-- Unterstützt Klassen-Buffs: Grosse Segen des Paladins
-- Unterstützt Selbst-Buffs
-- Unterstützt Waffen-Buffs (individuell für Waffen- und Schildhand): des Schamanen, alle Gifte (Schurke), alle Steine und Öle, inkl. Reagenzien Check
-- Unterstützt vom Charakter-Level abhängige Buffs
-- Unterstützt die Suche nach Kräutern, Erzen, etc.
-- Unterstützt Debuffs
+- UnterstÃ¼tzt Gruppen-Buffs: 'Gabe der Wildnis'/'Arkane Brillanz'/'Gebet der SeelenstÃ¤rke'/'Gebet der Willenskraft', inkl. GruppengrÃ¶sse und Reagenzien Check
+- UnterstÃ¼tzt Klassen-Buffs: Grosse Segen des Paladins
+- UnterstÃ¼tzt Selbst-Buffs
+- UnterstÃ¼tzt Waffen-Buffs (individuell fÃ¼r Waffen- und Schildhand): des Schamanen, alle Gifte (Schurke), alle Steine und Ã–le, inkl. Reagenzien Check
+- UnterstÃ¼tzt vom Charakter-Level abhÃ¤ngige Buffs
+- UnterstÃ¼tzt die Suche nach KrÃ¤utern, Erzen, etc.
+- UnterstÃ¼tzt Debuffs
 - Erinnerung, falls bei jemandem ein Buff fehlt (Splash/Chat/Ton)
 - ReBuff Timer
 - Buffen mit Mausrad oder alles auf nur einer Taste
@@ -132,26 +134,26 @@ Features:
 
 Gebrauch:
 Minimap-Knopf:
-Links Klick: öffnet das SmartBuff Menü
+Links Klick: Ã¶ffnet das SmartBuff MenÃ¼
 Rechts Klick: schaltet SmartBuff an/aus
 Rechts Klick: schaltet SmartBuff an/aus
 Alt-Links Klick: SmartDebuff
 Shift-Links Klick: Minimap verschieben
 
 Chat:
-Tippt /sbm für das Option-Menü in game
+Tippt /sbm fÃ¼r das Option-MenÃ¼ in game
 Tippt /sb [command] oder /smartbuff [command] in game
 toggle - Toggles SmartBuff An/Aus
-menu - Öffnet/versteckt das Options-Menü
-rbt - Buff Timer zurücksetzen
+menu - Ã–ffnet/versteckt das Options-MenÃ¼
+rbt - Buff Timer zurÃ¼cksetzen
 sdb - SmartDebuff
-rafp - Alle Fensterpositionen zurücksetzen
+rafp - Alle Fensterpositionen zurÃ¼cksetzen
 
-Optionen-Menü:
-Rechtsklick auf die Buff-Checkbox: öffnet das Buffsetup-Menü
+Optionen-MenÃ¼:
+Rechtsklick auf die Buff-Checkbox: Ã¶ffnet das Buffsetup-MenÃ¼
 
 
-Bei Fehler oder Verbesserungsvörschläge meldet euch hier oder schickt mir eine Email.
+Bei Fehler oder VerbesserungsvÃ¶rschlÃ¤ge meldet euch hier oder schickt mir eine Email.
 
 Kontakt:
 aeldra@sonnenkinder.org
@@ -257,7 +259,7 @@ Rev     Date        Description
                     Updated zhCN translation (thanks to Kurax)
 
 2.3b    2008-01-09  Added new buffs: Mage (Icy Veins), Warrior (Rampage)
-                    Updated german localization: Mage (Einäschern), Priest (Göttlicher Wille)
+                    Updated german localization: Mage (EinÃ¤schern), Priest (GÃ¶ttlicher Wille)
                     Changed order of Warlock buffs
 
 2.3a    2007-11-14  Updated ignore checks for group/class buffs
